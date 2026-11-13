@@ -1,0 +1,9 @@
+{
+  "edit_locks": {
+    "enabled": true,
+    "idle_minutes": 10,
+    "poll_seconds": 10
+  },
+  "format": "mitcad-project",
+  "version": 1
+}
