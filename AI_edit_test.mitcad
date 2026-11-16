@@ -1,0 +1,3148 @@
+{
+  "format": "mitcad",
+  "version": 2,
+  "units": {
+    "length": "mm",
+    "angle": "deg"
+  },
+  "parameters": [
+    {
+      "name": "d1",
+      "expression": "7.8 mm*Scale",
+      "unit": "mm",
+      "value": 19.5,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d2",
+      "expression": "38 mm*Scale",
+      "unit": "mm",
+      "value": 95.0,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d3",
+      "expression": "15 mm*Scale",
+      "unit": "mm",
+      "value": 37.5,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d4",
+      "expression": "50 mm*Scale",
+      "unit": "mm",
+      "value": 125.0,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d5",
+      "expression": "40.1 mm*Scale",
+      "unit": "mm",
+      "value": 100.25,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d6",
+      "expression": "55.8 mm*Scale",
+      "unit": "mm",
+      "value": 139.5,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d7",
+      "expression": "41.5 mm*Scale",
+      "unit": "mm",
+      "value": 103.75,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d8",
+      "expression": "39.3 mm*Scale",
+      "unit": "mm",
+      "value": 98.25,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d9",
+      "expression": "36.7 mm*Scale",
+      "unit": "mm",
+      "value": 91.75,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d10",
+      "expression": "39.4 mm*Scale",
+      "unit": "mm",
+      "value": 98.5,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d11",
+      "expression": "49.0 mm*Scale",
+      "unit": "mm",
+      "value": 122.5,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d12",
+      "expression": "65.7 mm*Scale",
+      "unit": "mm",
+      "value": 164.25,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "d13",
+      "expression": "61.9 mm*Scale",
+      "unit": "mm",
+      "value": 154.75,
+      "comment": "Sketch1 length",
+      "owner": "F1"
+    },
+    {
+      "name": "Scale",
+      "expression": "2.5",
+      "unit": "",
+      "value": 2.5,
+      "comment": ""
+    },
+    {
+      "name": "partEdgeThickness",
+      "expression": "5 mm",
+      "unit": "mm",
+      "value": 5.0,
+      "comment": "A minimum part thickness around holes"
+    },
+    {
+      "name": "BearingOD",
+      "expression": "21.9 mm",
+      "unit": "mm",
+      "value": 21.9,
+      "comment": ""
+    },
+    {
+      "name": "BearingID",
+      "expression": "8.2 mm",
+      "unit": "mm",
+      "value": 8.2,
+      "comment": ""
+    },
+    {
+      "name": "BearingThickness",
+      "expression": "7 mm",
+      "unit": "mm",
+      "value": 7.0,
+      "comment": ""
+    },
+    {
+      "name": "Tol_Tight_Plastic_Metal",
+      "expression": ".1 mm",
+      "unit": "mm",
+      "value": 0.1,
+      "comment": ""
+    },
+    {
+      "name": "BearingHoleSnapThickness",
+      "expression": ".5 mm",
+      "unit": "mm",
+      "value": 0.5,
+      "comment": ""
+    },
+    {
+      "name": "T_component_thickness",
+      "expression": "20 mm",
+      "unit": "mm",
+      "value": 20.0,
+      "comment": ""
+    },
+    {
+      "name": "Tol_SidetoSide",
+      "expression": ".5 mm",
+      "unit": "mm",
+      "value": 0.5,
+      "comment": "The tolerance of two printed parts passing each other"
+    },
+    {
+      "name": "partWidth",
+      "expression": "10 mm",
+      "unit": "mm",
+      "value": 10.0,
+      "comment": "The width of each section"
+    },
+    {
+      "name": "BearingInnerRimDiameter",
+      "expression": "11 mm",
+      "unit": "mm",
+      "value": 11.0,
+      "comment": ""
+    },
+    {
+      "name": "d14",
+      "expression": "0 mm",
+      "unit": "mm",
+      "value": 0.0,
+      "comment": "Plane1 distance",
+      "owner": "F29"
+    },
+    {
+      "name": "T_component_CL_to_edge",
+      "expression": "partEdgeThickness+BearingOD/2",
+      "unit": "mm",
+      "value": 15.95,
+      "comment": ""
+    },
+    {
+      "name": "d15",
+      "expression": "-(-(T_component_CL_to_edge))",
+      "unit": "mm",
+      "value": 15.95,
+      "comment": "Sketch3 offset",
+      "owner": "F34"
+    },
+    {
+      "name": "d17",
+      "expression": "4 mm",
+      "unit": "mm",
+      "value": 4.0,
+      "comment": "Sketch3 radius",
+      "owner": "F34"
+    },
+    {
+      "name": "d18",
+      "expression": "-Tol_SidetoSide",
+      "unit": "mm",
+      "value": -0.5,
+      "comment": "Plane2 distance",
+      "owner": "F40"
+    },
+    {
+      "name": "A_component_thickness",
+      "expression": "10 mm",
+      "unit": "mm",
+      "value": 10.0,
+      "comment": ""
+    },
+    {
+      "name": "d19",
+      "expression": "-A_component_thickness",
+      "unit": "mm",
+      "value": -10.0,
+      "comment": "Extrude5 distance",
+      "owner": "F42"
+    },
+    {
+      "name": "d20",
+      "expression": "-A_component_thickness",
+      "unit": "mm",
+      "value": -10.0,
+      "comment": "Extrude6 distance",
+      "owner": "F45"
+    },
+    {
+      "name": "d16",
+      "expression": "T_component_CL_to_edge*2",
+      "unit": "mm",
+      "value": 31.9,
+      "comment": "T2RoundedOffset diameter",
+      "owner": "F31"
+    },
+    {
+      "name": "d21",
+      "expression": "T_component_CL_to_edge*2",
+      "unit": "mm",
+      "value": 31.9,
+      "comment": "Sketch12 diameter",
+      "owner": "F58"
+    },
+    {
+      "name": "d22",
+      "expression": "T_component_CL_to_edge*2",
+      "unit": "mm",
+      "value": 31.9,
+      "comment": "Sketch12 diameter",
+      "owner": "F58"
+    }
+  ],
+  "components": [
+    {
+      "uid": "C1",
+      "name": "Component1"
+    }
+  ],
+  "occurrences": [
+    {
+      "uid": "O1",
+      "component": "C1",
+      "parent": "C0",
+      "number": 1
+    }
+  ],
+  "active_component": "C1",
+  "features": [
+    {
+      "uid": "F1",
+      "name": "StrandbeestPlan",
+      "component": "C1",
+      "visible": true,
+      "type": "sketch",
+      "plane": "xy",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            7.005042794575005e-10,
+            -1.6909937110267854e-10
+          ],
+          "fixed": true
+        },
+        {
+          "id": "p3",
+          "type": "point",
+          "at": [
+            7.005042872197964e-10,
+            -15.600000000169098
+          ]
+        },
+        {
+          "id": "c2",
+          "type": "line",
+          "start": "p1",
+          "end": "p3"
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            -75.99999999929949,
+            -15.600000000169098
+          ]
+        },
+        {
+          "id": "c4",
+          "type": "line",
+          "start": "p3",
+          "end": "p5"
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            -16.29644491016087,
+            -25.187812197088082
+          ]
+        },
+        {
+          "id": "c6",
+          "type": "line",
+          "start": "p1",
+          "end": "p7"
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            -58.40599993930393,
+            65.5138160972682
+          ]
+        },
+        {
+          "id": "c8",
+          "type": "line",
+          "start": "p7",
+          "end": "p9"
+        },
+        {
+          "id": "c10",
+          "type": "line",
+          "start": "p9",
+          "end": "p5"
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            -153.104805099841,
+            6.465562091187397
+          ]
+        },
+        {
+          "id": "c11",
+          "type": "line",
+          "start": "p5",
+          "end": "p12"
+        },
+        {
+          "id": "c13",
+          "type": "line",
+          "start": "p12",
+          "end": "p9"
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            -131.010008435709,
+            -71.74141939642371
+          ]
+        },
+        {
+          "id": "c14",
+          "type": "line",
+          "start": "p5",
+          "end": "p15"
+        },
+        {
+          "id": "p17",
+          "type": "point",
+          "at": [
+            -202.46561194826063,
+            -54.95878770002333
+          ]
+        },
+        {
+          "id": "c16",
+          "type": "line",
+          "start": "p15",
+          "end": "p17"
+        },
+        {
+          "id": "c18",
+          "type": "line",
+          "start": "p17",
+          "end": "p12"
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            -138.0527776401803,
+            -169.4880275316043
+          ]
+        },
+        {
+          "id": "c19",
+          "type": "line",
+          "start": "p17",
+          "end": "p20"
+        },
+        {
+          "id": "c21",
+          "type": "line",
+          "start": "p20",
+          "end": "p15"
+        },
+        {
+          "id": "c22",
+          "type": "line",
+          "start": "p7",
+          "end": "p15"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k2",
+          "type": "vertical",
+          "line": "c2"
+        },
+        {
+          "id": "k4",
+          "type": "horizontal",
+          "line": "c4"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "length",
+          "line": "c2",
+          "value": "d1"
+        },
+        {
+          "id": "k3",
+          "type": "length",
+          "line": "c4",
+          "value": "d2"
+        },
+        {
+          "id": "k5",
+          "type": "length",
+          "line": "c6",
+          "value": "d3"
+        },
+        {
+          "id": "k6",
+          "type": "length",
+          "line": "c8",
+          "value": "d4"
+        },
+        {
+          "id": "k7",
+          "type": "length",
+          "line": "c11",
+          "value": "d5"
+        },
+        {
+          "id": "k9",
+          "type": "length",
+          "line": "c13",
+          "value": "d6",
+          "text": [
+            -67.70619813697195,
+            4.921440389576514
+          ]
+        },
+        {
+          "id": "k10",
+          "type": "length",
+          "line": "c10",
+          "value": "d7",
+          "text": [
+            -41.15417878465327,
+            3.2004761722965824
+          ]
+        },
+        {
+          "id": "k11",
+          "type": "length",
+          "line": "c14",
+          "value": "d8"
+        },
+        {
+          "id": "k12",
+          "type": "length",
+          "line": "c16",
+          "value": "d9"
+        },
+        {
+          "id": "k13",
+          "type": "length",
+          "line": "c18",
+          "value": "d10",
+          "text": [
+            -69.91886641633182,
+            -44.37189183394105
+          ]
+        },
+        {
+          "id": "k14",
+          "type": "length",
+          "line": "c21",
+          "value": "d11",
+          "text": [
+            -16.814827711694477,
+            -53.4684169824206
+          ]
+        },
+        {
+          "id": "k15",
+          "type": "length",
+          "line": "c19",
+          "value": "d12",
+          "text": [
+            -40.17077066049332,
+            -78.54532414849936
+          ]
+        },
+        {
+          "id": "k16",
+          "type": "length",
+          "line": "c22",
+          "value": "d13",
+          "text": [
+            -15.954345603054525,
+            -21.630578962742185
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F29",
+      "name": "TPlane",
+      "component": "C1",
+      "visible": false,
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "xy",
+        "distance": "d14"
+      }
+    },
+    {
+      "uid": "F31",
+      "name": "T2RoundedOffset",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F29",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -78.60714226848637,
+            109.52069516203343
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -136.7999999992995,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p3",
+          "type": "point",
+          "at": [
+            -265.8171699562593,
+            36.68402903058991
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c4",
+          "type": "arc",
+          "center": "p1",
+          "start": "p11",
+          "end": "p9"
+        },
+        {
+          "id": "c5",
+          "type": "arc",
+          "center": "p3",
+          "start": "p8",
+          "end": "p15"
+        },
+        {
+          "id": "c6",
+          "type": "arc",
+          "center": "p2",
+          "start": "p14",
+          "end": "p12"
+        },
+        {
+          "id": "p8",
+          "type": "point",
+          "at": [
+            -271.6004476583527,
+            51.548624518542795
+          ]
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            -84.39041997057977,
+            124.38529064998632
+          ]
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p8",
+          "end": "p9"
+        },
+        {
+          "id": "p11",
+          "type": "point",
+          "at": [
+            -63.91684047573451,
+            103.30800385810794
+          ]
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            -122.10969820654763,
+            -34.29269130409459
+          ]
+        },
+        {
+          "id": "c10",
+          "type": "line",
+          "start": "p11",
+          "end": "p12"
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            -143.95562664823692,
+            -42.33480646188638
+          ]
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            -272.9727966051967,
+            22.429222568872632
+          ]
+        },
+        {
+          "id": "c13",
+          "type": "line",
+          "start": "p14",
+          "end": "p15"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k2",
+          "type": "equal",
+          "a": "c6",
+          "b": "c4"
+        },
+        {
+          "id": "k3",
+          "type": "equal",
+          "a": "c6",
+          "b": "c5"
+        },
+        {
+          "id": "k6",
+          "type": "tangent",
+          "a": "c4",
+          "b": "c7"
+        },
+        {
+          "id": "k7",
+          "type": "tangent",
+          "a": "c7",
+          "b": "c5"
+        },
+        {
+          "id": "k10",
+          "type": "tangent",
+          "a": "c6",
+          "b": "c10"
+        },
+        {
+          "id": "k11",
+          "type": "tangent",
+          "a": "c4",
+          "b": "c10"
+        },
+        {
+          "id": "k14",
+          "type": "tangent",
+          "a": "c5",
+          "b": "c13"
+        },
+        {
+          "id": "k15",
+          "type": "tangent",
+          "a": "c13",
+          "b": "c6"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c4",
+          "value": "d16"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p9",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p12",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p3"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c5"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "circle",
+          "entities": [
+            "c6"
+          ]
+        },
+        {
+          "id": 5,
+          "kind": "add_constraint",
+          "constraints": [
+            "k2",
+            "k3"
+          ]
+        },
+        {
+          "id": 6,
+          "kind": "add_line",
+          "entities": [
+            "p8",
+            "p9",
+            "c7"
+          ],
+          "constraints": [
+            "k6"
+          ]
+        },
+        {
+          "id": 7,
+          "kind": "add_constraint",
+          "constraints": [
+            "k7"
+          ]
+        },
+        {
+          "id": 8,
+          "kind": "add_line",
+          "entities": [
+            "p11",
+            "p12",
+            "p14",
+            "p15",
+            "c10",
+            "c13"
+          ],
+          "constraints": [
+            "k10",
+            "k11",
+            "k14",
+            "k15"
+          ],
+          "changed": [
+            "c4",
+            "c5",
+            "c6"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F33",
+      "name": "Extrude1",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F31",
+          "region": "r{c4[c10,c7],c5[c7,c13],c6[c13,c10],c7[c5,c4],c10[c4,c6],c13[c6,c5]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "T_component_thickness"
+      },
+      "operation": "new_body",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F34",
+      "name": "T1RoundedOffset",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F29",
+      "entities": [
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -163.07586175034476,
+            -99.71151765003222
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p3",
+          "type": "point",
+          "at": [
+            -253.44653487688595,
+            -69.08280826397021
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c1",
+          "type": "line",
+          "start": "p2",
+          "end": "p3",
+          "construction": true,
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p5",
+          "type": "point",
+          "at": [
+            -184.38016305997368,
+            -225.31759531233544
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c4",
+          "type": "line",
+          "start": "p5",
+          "end": "p2",
+          "construction": true,
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c6",
+          "type": "line",
+          "start": "p3",
+          "end": "p5",
+          "construction": true,
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c7",
+          "type": "line",
+          "start": "p14",
+          "end": "p18"
+        },
+        {
+          "id": "p14",
+          "type": "point",
+          "at": [
+            -248.32677052237233,
+            -53.976832196391804
+          ]
+        },
+        {
+          "id": "p15",
+          "type": "point",
+          "at": [
+            -267.4701900308352,
+            -76.68146578507972
+          ]
+        },
+        {
+          "id": "p16",
+          "type": "point",
+          "at": [
+            -253.44653487688595,
+            -69.08280826397021
+          ]
+        },
+        {
+          "id": "c13",
+          "type": "arc",
+          "center": "p16",
+          "start": "p14",
+          "end": "p15"
+        },
+        {
+          "id": "p18",
+          "type": "point",
+          "at": [
+            -157.95609739583114,
+            -84.60554158245381
+          ]
+        },
+        {
+          "id": "p19",
+          "type": "point",
+          "at": [
+            -147.7109178493141,
+            -103.99182125120174
+          ]
+        },
+        {
+          "id": "p20",
+          "type": "point",
+          "at": [
+            -163.07586175034476,
+            -99.71151765003222
+          ]
+        },
+        {
+          "id": "c17",
+          "type": "arc",
+          "center": "p20",
+          "start": "p19",
+          "end": "p18"
+        },
+        {
+          "id": "p22",
+          "type": "point",
+          "at": [
+            -188.0652538505668,
+            -223.2267521623033
+          ]
+        },
+        {
+          "id": "p23",
+          "type": "point",
+          "at": [
+            -180.69507226938057,
+            -222.39456309147198
+          ]
+        },
+        {
+          "id": "p24",
+          "type": "point",
+          "at": [
+            -184.5483497367237,
+            -221.3211327212727
+          ]
+        },
+        {
+          "id": "c21",
+          "type": "arc",
+          "center": "p24",
+          "start": "p22",
+          "end": "p23"
+        },
+        {
+          "id": "c25",
+          "type": "line",
+          "start": "p23",
+          "end": "p19"
+        },
+        {
+          "id": "c26",
+          "type": "line",
+          "start": "p22",
+          "end": "p15"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k2",
+          "type": "parallel",
+          "a": "c1",
+          "b": "c7"
+        },
+        {
+          "id": "k8",
+          "type": "tangent",
+          "a": "c7",
+          "b": "c13"
+        },
+        {
+          "id": "k13",
+          "type": "tangent",
+          "a": "c7",
+          "b": "c17"
+        },
+        {
+          "id": "k19",
+          "type": "coincident",
+          "point": "p20",
+          "entity": "c4"
+        },
+        {
+          "id": "k20",
+          "type": "coincident",
+          "point": "p16",
+          "entity": "c6"
+        },
+        {
+          "id": "k21",
+          "type": "coincident",
+          "point": "p16",
+          "entity": "c1"
+        },
+        {
+          "id": "k22",
+          "type": "coincident",
+          "point": "p5",
+          "entity": "c21"
+        },
+        {
+          "id": "k24",
+          "type": "tangent",
+          "a": "c26",
+          "b": "c21"
+        },
+        {
+          "id": "k25",
+          "type": "tangent",
+          "a": "c21",
+          "b": "c25"
+        },
+        {
+          "id": "k26",
+          "type": "tangent",
+          "a": "c17",
+          "b": "c25"
+        },
+        {
+          "id": "k27",
+          "type": "tangent",
+          "a": "c13",
+          "b": "c26"
+        },
+        {
+          "id": "k28",
+          "type": "equal_spacing",
+          "anchors": [
+            "p22",
+            "p5",
+            "p23"
+          ],
+          "mode": "horizontal"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k3",
+          "type": "line_distance",
+          "a": "c1",
+          "b": "c7",
+          "value": "d15",
+          "text": [
+            -176.0233774762862,
+            -55.306909928998905
+          ]
+        },
+        {
+          "id": "k17",
+          "type": "radius",
+          "curve": "c17",
+          "value": "T_component_CL_to_edge",
+          "text": [
+            -98.85927110445286,
+            -87.62847901304987
+          ]
+        },
+        {
+          "id": "k23",
+          "type": "radius",
+          "curve": "c21",
+          "value": "d17",
+          "text": [
+            -138.88871888396528,
+            -240.48864262917664
+          ]
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "curve": "c16",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2",
+            "p3",
+            "c1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "curve": "c21",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p5",
+            "c4"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "curve": "c19",
+            "sketch": "F1"
+          },
+          "entities": [
+            "c6"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "offsets": [
+        {
+          "id": "k1",
+          "curves": [
+            "c1",
+            "c4",
+            "c6"
+          ],
+          "distance": "d15",
+          "left": true,
+          "results": [
+            "c7"
+          ]
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p2",
+            "p3",
+            "p5",
+            "c1",
+            "c4",
+            "c6"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "offset",
+          "entities": [
+            "c7"
+          ],
+          "constraints": [
+            "k2",
+            "k3"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "fillet",
+          "entities": [
+            "p14",
+            "p15",
+            "p16",
+            "c13"
+          ],
+          "constraints": [
+            "k8"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "fillet",
+          "entities": [
+            "p18",
+            "p19",
+            "p20",
+            "c17"
+          ],
+          "constraints": [
+            "k13",
+            "k17"
+          ]
+        },
+        {
+          "id": 6,
+          "kind": "add_constraint",
+          "constraints": [
+            "k19"
+          ]
+        },
+        {
+          "id": 7,
+          "kind": "add_constraint",
+          "constraints": [
+            "k20"
+          ]
+        },
+        {
+          "id": 8,
+          "kind": "add_constraint",
+          "constraints": [
+            "k21"
+          ]
+        },
+        {
+          "id": 9,
+          "kind": "arc",
+          "entities": [
+            "p22",
+            "p23",
+            "p24",
+            "c21"
+          ],
+          "constraints": [
+            "k22"
+          ]
+        },
+        {
+          "id": 10,
+          "kind": "add_dimension",
+          "constraints": [
+            "k23"
+          ]
+        },
+        {
+          "id": 11,
+          "kind": "add_line",
+          "entities": [
+            "c25"
+          ]
+        },
+        {
+          "id": 12,
+          "kind": "add_line",
+          "entities": [
+            "c26"
+          ]
+        },
+        {
+          "id": 13,
+          "kind": "add_constraint",
+          "constraints": [
+            "k24"
+          ]
+        },
+        {
+          "id": 14,
+          "kind": "add_constraint",
+          "constraints": [
+            "k25"
+          ]
+        },
+        {
+          "id": 15,
+          "kind": "add_constraint",
+          "constraints": [
+            "k26"
+          ]
+        },
+        {
+          "id": 16,
+          "kind": "add_constraint",
+          "constraints": [
+            "k27"
+          ]
+        },
+        {
+          "id": 17,
+          "kind": "add_equal_spacing",
+          "constraints": [
+            "k28"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F35",
+      "name": "Extrude2",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F34",
+          "region": "r{c7[c13,c17],c13[c7,c26],c17[c25,c7],c21[c26,c25],c25[c21,c17],c26[c21,c13]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "T_component_thickness"
+      },
+      "operation": "new_body",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F36",
+      "name": "T2BearingInsets",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F29",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -265.8171699562593,
+            36.68402903058991
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -136.7999999992995,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 11.094100385879045
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p2",
+          "radius": 11.094100385879047
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k1",
+          "type": "equal",
+          "a": "c3",
+          "b": "c4"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p12",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "add_constraint",
+          "constraints": [
+            "k1"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F37",
+      "name": "Extrude3",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F36",
+          "region": "r{c3}"
+        },
+        {
+          "sketch": "F36",
+          "region": "r{c4}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "BearingThickness"
+      },
+      "operation": "cut",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        }
+      }
+    },
+    {
+      "uid": "F38",
+      "name": "T1BearingInsets",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F29",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -279.6807170310123,
+            -78.54864078585612
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -178.54464298532403,
+            -122.06305824289048
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 10.95
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p2",
+          "radius": 10.95
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k1",
+          "type": "equal",
+          "a": "c4",
+          "b": "c3"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c3",
+          "value": "BearingOD",
+          "text": [
+            -323.30304062673844,
+            -93.08265855572357
+          ]
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p16",
+            "sketch": "F34"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p20",
+            "sketch": "F34"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "add_constraint",
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 5,
+          "kind": "add_dimension",
+          "constraints": [
+            "k2"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F39",
+      "name": "Extrude4",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F38",
+          "region": "r{c4}"
+        },
+        {
+          "sketch": "F38",
+          "region": "r{c3}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "BearingThickness"
+      },
+      "operation": "cut",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        }
+      }
+    },
+    {
+      "uid": "F40",
+      "name": "Aplane",
+      "component": "C1",
+      "visible": false,
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "F29",
+        "distance": "d18"
+      }
+    },
+    {
+      "uid": "F41",
+      "name": "A1RoundedOffset",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F40",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -279.6807170310123,
+            -78.54864078585612
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -223.8524407212034,
+            25.63602010179866
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "arc",
+          "center": "p1",
+          "start": "p7",
+          "end": "p9"
+        },
+        {
+          "id": "c4",
+          "type": "arc",
+          "center": "p2",
+          "start": "p10",
+          "end": "p6"
+        },
+        {
+          "id": "p6",
+          "type": "point",
+          "at": [
+            -237.91119995265936,
+            33.16953116052499
+          ]
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            -293.73947626246826,
+            -71.01512972712979
+          ]
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p6",
+          "end": "p7"
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            -265.62195779955636,
+            -86.08215184458246
+          ]
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            -209.79368148974746,
+            18.10250904307233
+          ]
+        },
+        {
+          "id": "c8",
+          "type": "line",
+          "start": "p9",
+          "end": "p10"
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k5",
+          "type": "tangent",
+          "a": "c5",
+          "b": "c4"
+        },
+        {
+          "id": "k6",
+          "type": "tangent",
+          "a": "c5",
+          "b": "c3"
+        },
+        {
+          "id": "k7",
+          "type": "tangent",
+          "a": "c8",
+          "b": "c3"
+        },
+        {
+          "id": "k8",
+          "type": "tangent",
+          "a": "c8",
+          "b": "c4"
+        },
+        {
+          "id": "k9",
+          "type": "equal",
+          "a": "c3",
+          "b": "c4"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k10",
+          "type": "distance",
+          "a": "p2",
+          "b": "p10",
+          "value": "T_component_CL_to_edge",
+          "text": [
+            -189.22904601894675,
+            -1.3902880904408825
+          ]
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p17",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p12",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "add_line",
+          "entities": [
+            "p6",
+            "p7",
+            "c5"
+          ]
+        },
+        {
+          "id": 5,
+          "kind": "add_line",
+          "entities": [
+            "p9",
+            "p10",
+            "c8"
+          ]
+        },
+        {
+          "id": 6,
+          "kind": "add_constraint",
+          "constraints": [
+            "k5"
+          ]
+        },
+        {
+          "id": 7,
+          "kind": "add_constraint",
+          "constraints": [
+            "k6"
+          ]
+        },
+        {
+          "id": 8,
+          "kind": "add_constraint",
+          "constraints": [
+            "k7"
+          ]
+        },
+        {
+          "id": 9,
+          "kind": "add_constraint",
+          "constraints": [
+            "k8"
+          ]
+        },
+        {
+          "id": 10,
+          "kind": "add_constraint",
+          "constraints": [
+            "k9"
+          ]
+        },
+        {
+          "id": 11,
+          "kind": "trim",
+          "changed": [
+            "c4"
+          ]
+        },
+        {
+          "id": 12,
+          "kind": "trim",
+          "changed": [
+            "c3"
+          ]
+        },
+        {
+          "id": 13,
+          "kind": "add_dimension",
+          "constraints": [
+            "k10"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F42",
+      "name": "Extrude5",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F41",
+          "region": "r{c3[c5,c8],c4[c8,c5],c5[c4,c3],c8[c3,c4]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "d19"
+      },
+      "operation": "new_body",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F44",
+      "name": "A2RoundedOffset",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F40",
+      "entities": [
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -178.54464298532403,
+            -122.06305824289046
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c4",
+          "type": "arc",
+          "center": "p2",
+          "start": "p7",
+          "end": "p9"
+        },
+        {
+          "id": "p6",
+          "type": "point",
+          "at": [
+            -127.34754689473127,
+            -14.668133540227693
+          ]
+        },
+        {
+          "id": "p7",
+          "type": "point",
+          "at": [
+            -191.8921898807558,
+            -113.33119178294906
+          ]
+        },
+        {
+          "id": "c5",
+          "type": "line",
+          "start": "p6",
+          "end": "p7"
+        },
+        {
+          "id": "p9",
+          "type": "point",
+          "at": [
+            -165.19709608989226,
+            -130.79492470283188
+          ]
+        },
+        {
+          "id": "p10",
+          "type": "point",
+          "at": [
+            -100.65245310386771,
+            -32.1318664601105
+          ]
+        },
+        {
+          "id": "c8",
+          "type": "line",
+          "start": "p9",
+          "end": "p10"
+        },
+        {
+          "id": "p12",
+          "type": "point",
+          "at": [
+            -113.99999999929949,
+            -23.400000000169097
+          ]
+        },
+        {
+          "id": "c11",
+          "type": "arc",
+          "center": "p12",
+          "start": "p10",
+          "end": "p6"
+        },
+        {
+          "id": "p13",
+          "type": "point",
+          "at": [
+            -113.99999999929949,
+            -23.400000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        }
+      ],
+      "constraints": [
+        {
+          "id": "k3",
+          "type": "tangent",
+          "a": "c4",
+          "b": "c5"
+        },
+        {
+          "id": "k7",
+          "type": "tangent",
+          "a": "c8",
+          "b": "c4"
+        },
+        {
+          "id": "k8",
+          "type": "coincident",
+          "point": "p12",
+          "entity": "p13"
+        },
+        {
+          "id": "k9",
+          "type": "tangent",
+          "a": "c11",
+          "b": "c5"
+        },
+        {
+          "id": "k10",
+          "type": "equal",
+          "a": "c4",
+          "b": "c11"
+        },
+        {
+          "id": "k11",
+          "type": "tangent",
+          "a": "c11",
+          "b": "c8"
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k12",
+          "type": "distance",
+          "a": "p12",
+          "b": "p10",
+          "value": "T_component_CL_to_edge",
+          "text": [
+            -104.78212621400915,
+            -26.549923370241373
+          ]
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p15",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p13"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p2"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "add_line",
+          "entities": [
+            "p6",
+            "p7",
+            "c5"
+          ],
+          "constraints": [
+            "k3"
+          ]
+        },
+        {
+          "id": 5,
+          "kind": "add_line",
+          "entities": [
+            "p9",
+            "p10",
+            "c8"
+          ]
+        },
+        {
+          "id": 6,
+          "kind": "add_constraint",
+          "constraints": [
+            "k7"
+          ]
+        },
+        {
+          "id": 9,
+          "kind": "trim",
+          "changed": [
+            "c4"
+          ]
+        },
+        {
+          "id": 10,
+          "kind": "arc",
+          "entities": [
+            "p12",
+            "c11"
+          ]
+        },
+        {
+          "id": 11,
+          "kind": "project",
+          "entities": [
+            "p13"
+          ]
+        },
+        {
+          "id": 12,
+          "kind": "add_constraint",
+          "constraints": [
+            "k8"
+          ]
+        },
+        {
+          "id": 13,
+          "kind": "add_constraint",
+          "constraints": [
+            "k9"
+          ]
+        },
+        {
+          "id": 14,
+          "kind": "add_constraint",
+          "constraints": [
+            "k10"
+          ]
+        },
+        {
+          "id": 15,
+          "kind": "add_constraint",
+          "constraints": [
+            "k11"
+          ]
+        },
+        {
+          "id": 16,
+          "kind": "add_dimension",
+          "constraints": [
+            "k12"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F45",
+      "name": "Extrude6",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F44",
+          "region": "r{c4[c5,c8],c5[c11,c4],c8[c4,c11],c11[c8,c5]}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "d20"
+      },
+      "operation": "new_body",
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F46",
+      "name": "A1BearingBumper",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F40",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -265.8171699562593,
+            36.68402903058991
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -320.7014937705488,
+            -94.10701270946284
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 5.500000000000017
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p2",
+          "radius": 5.499999999999997
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c3",
+          "value": "BearingInnerRimDiameter"
+        },
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c4",
+          "value": "BearingInnerRimDiameter"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p12",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p17",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ],
+          "constraints": [
+            "k2"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F47",
+      "name": "Extrude7",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F46",
+          "region": "r{c4}"
+        },
+        {
+          "sketch": "F46",
+          "region": "r{c3}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "Tol_SidetoSide"
+      },
+      "operation": "join",
+      "participants": [
+        "F42.b0"
+      ],
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F48",
+      "name": "A1BearingAxle",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F40",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -265.8171699562593,
+            36.68402903058991
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -320.7014937705488,
+            -94.10701270946284
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 4.100000000000005
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p2",
+          "radius": 4.100000000000013
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c3",
+          "value": "BearingID"
+        },
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c4",
+          "value": "BearingID"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p12",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p17",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ],
+          "constraints": [
+            "k2"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F49",
+      "name": "Extrude8",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F48",
+          "region": "r{c4}"
+        },
+        {
+          "sketch": "F48",
+          "region": "r{c3}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "BearingThickness"
+      },
+      "operation": "join",
+      "participants": [
+        "F42.b0"
+      ],
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F50",
+      "name": "A2BearingAxle",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F40",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -136.7999999992995,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            -202.59779254857742,
+            -153.32871614385732
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 5.4999999999999885
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p2",
+          "radius": 5.499999999999998
+        },
+        {
+          "id": "c5",
+          "type": "circle",
+          "center": "p1",
+          "radius": 4.1000000000000005
+        },
+        {
+          "id": "c6",
+          "type": "circle",
+          "center": "p2",
+          "radius": 4.099999999999997
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c3",
+          "value": "BearingInnerRimDiameter"
+        },
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c4",
+          "value": "BearingInnerRimDiameter"
+        },
+        {
+          "id": "k3",
+          "type": "diameter",
+          "curve": "c5",
+          "value": "BearingID"
+        },
+        {
+          "id": "k4",
+          "type": "diameter",
+          "curve": "c6",
+          "value": "BearingID"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p15",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ],
+          "constraints": [
+            "k2"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "circle",
+          "entities": [
+            "c5"
+          ],
+          "constraints": [
+            "k3"
+          ]
+        },
+        {
+          "id": 5,
+          "kind": "circle",
+          "entities": [
+            "c6"
+          ],
+          "constraints": [
+            "k4"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F51",
+      "name": "Extrude9",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F50",
+          "region": "r{c6}"
+        },
+        {
+          "sketch": "F50",
+          "region": "r{c5}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "BearingThickness"
+      },
+      "operation": "join",
+      "participants": [
+        "F45.b0"
+      ],
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F52",
+      "name": "Extrude10",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F50",
+          "region": "r{c4}"
+        },
+        {
+          "sketch": "F50",
+          "region": "r{c3}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "Tol_SidetoSide"
+      },
+      "operation": "join",
+      "participants": [
+        "F45.b0"
+      ],
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F53",
+      "name": "TPlaneOtherSide",
+      "component": "C1",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "F29",
+        "distance": "T_component_thickness"
+      }
+    },
+    {
+      "uid": "F54",
+      "name": "T2_to_B_Bearing_insert_male",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F53",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -136.7999999992995,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c2",
+          "type": "circle",
+          "center": "p1",
+          "radius": 5.499999999999999
+        },
+        {
+          "id": "c3",
+          "type": "circle",
+          "center": "p1",
+          "radius": 4.100000000000008
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c2",
+          "value": "BearingInnerRimDiameter"
+        },
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c3",
+          "value": "BearingID"
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c2"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c3"
+          ],
+          "constraints": [
+            "k2"
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "F55",
+      "name": "Extrude11",
+      "component": "C1",
+      "type": "extrude",
+      "profiles": [
+        {
+          "sketch": "F54",
+          "region": "r{c2}"
+        }
+      ],
+      "extent": {
+        "type": "distance",
+        "distance": "Tol_SidetoSide"
+      },
+      "operation": "join",
+      "participants": [
+        "F33.b0"
+      ],
+      "cut_scope": {
+        "context": {
+          "component": "C1",
+          "occurrence": "O1"
+        },
+        "targets": {
+          "type": "automatic",
+          "excluded": [],
+          "excluded_bodies": []
+        },
+        "initialize_on_cut": true
+      }
+    },
+    {
+      "uid": "F56",
+      "name": "Extrude12",
+      "component": "C1",
+      "type": "extrude",
+      "extent": {
+        "type": "distance",
+        "distance": "BearingID"
+      },
+      "operation": "join",
+      "participants": [
+        "F33.b0"
+      ],
+      "profile_face": {
+        "body": "F33.b0",
+        "face": "F33:end(r{c4[c10,c7],c5[c7,c13],c6[c13,c10],c7[c5,c4],c10[c4,c6],c13[c6,c5]})#1"
+      }
+    },
+    {
+      "uid": "F57",
+      "name": "B1Plane",
+      "component": "C1",
+      "type": "construction_plane",
+      "definition": {
+        "type": "offset",
+        "plane": "F53",
+        "distance": "Tol_SidetoSide"
+      }
+    },
+    {
+      "uid": "F58",
+      "name": "Sketch12",
+      "component": "C1",
+      "type": "sketch",
+      "plane": "F57",
+      "entities": [
+        {
+          "id": "p1",
+          "type": "point",
+          "at": [
+            -136.7999999992995,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p2",
+          "type": "point",
+          "at": [
+            7.005042155154051e-10,
+            -1.6909932094477554e-10
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "p3",
+          "type": "point",
+          "at": [
+            7.005041734747314e-10,
+            -28.080000000169097
+          ],
+          "fixed": true,
+          "reference": true
+        },
+        {
+          "id": "c4",
+          "type": "circle",
+          "center": "p1",
+          "radius": 15.950000000000006
+        },
+        {
+          "id": "c5",
+          "type": "circle",
+          "center": "p2",
+          "radius": 15.95
+        }
+      ],
+      "dimensions": [
+        {
+          "id": "k1",
+          "type": "diameter",
+          "curve": "c4",
+          "value": "d21"
+        },
+        {
+          "id": "k2",
+          "type": "diameter",
+          "curve": "c5",
+          "value": "d22",
+          "text": [
+            27.242435806130857,
+            28.49478009290237
+          ]
+        }
+      ],
+      "projections": [
+        {
+          "source": {
+            "point": "p5",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p1"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p1",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p2"
+          ],
+          "by_geometry": true
+        },
+        {
+          "source": {
+            "point": "p3",
+            "sketch": "F1"
+          },
+          "entities": [
+            "p3"
+          ],
+          "by_geometry": true
+        }
+      ],
+      "steps": [
+        {
+          "id": 1,
+          "kind": "project",
+          "entities": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        },
+        {
+          "id": 2,
+          "kind": "circle",
+          "entities": [
+            "c4"
+          ],
+          "constraints": [
+            "k1"
+          ]
+        },
+        {
+          "id": 3,
+          "kind": "circle",
+          "entities": [
+            "c5"
+          ]
+        },
+        {
+          "id": 4,
+          "kind": "add_dimension",
+          "constraints": [
+            "k2"
+          ]
+        }
+      ]
+    }
+  ],
+  "bodies": [
+    {
+      "uid": "F33.b0",
+      "name": "T2"
+    },
+    {
+      "uid": "F35.b0",
+      "name": "T1"
+    },
+    {
+      "uid": "F42.b0",
+      "name": "A1"
+    },
+    {
+      "uid": "F45.b0",
+      "name": "A2"
+    },
+    {
+      "uid": "F47.b0",
+      "name": "Body1"
+    },
+    {
+      "uid": "F49.b0",
+      "name": "Body2"
+    }
+  ],
+  "configurations": {
+    "options": [
+      "Scale"
+    ],
+    "parameters": [],
+    "rows": []
+  },
+  "statistics": {
+    "created": "2026-11-11T21:44:45Z",
+    "last_saved": "2026-11-16T15:15:52Z",
+    "last_saved_by": "AMAS4GM",
+    "last_saved_with": "MitCad 0.64.0"
+  },
+  "preview": {
+    "format": "png",
+    "width": 256,
+    "height": 131,
+    "data": "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"
+  }
+}
